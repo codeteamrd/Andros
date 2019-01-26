@@ -1,6 +1,7 @@
 # CodeTeamUiKit
 
 > Web: https://codeteamrd.github.io/CodeTeamUiKit/
+> Trello: https://trello.com/b/J5VJf0nR/codeteamuikit
 
 ## ¿Que es CodeTeamUiKit?
 
