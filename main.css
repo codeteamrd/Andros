@@ -15,7 +15,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(78, 53, 110);
+    background-color: #0f807a; /*#1a73e7*/
     overflow-x: hidden;
   }
   
@@ -42,7 +42,12 @@
     padding-left: 20px;
   }
 
-  /* TEXT*/
+  /* text*/
+
+  .p-w {
+    color: white;
+    margin: auto;
+  }
 
   .p-g {
     color: rgb(179, 184, 183);
@@ -52,4 +57,24 @@
   .p-g2 {
     color: rgb(179, 184, 183);
     margin: auto;
+  }
+
+  /*footer*/
+
+  .footer-b {
+    background-color:#1a73e7 ;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .footer-g {
+    background-color:rgb(102, 102, 102);
+    padding: 50px;
+    text-align: center;
+  }
+
+  .footer-g2 {
+    background-color:rgb(179, 184, 183);
+    padding: 50px;
+    text-align: center;
   }
