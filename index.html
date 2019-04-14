@@ -7,11 +7,13 @@
     <title>CodeTeamRDUiKit</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/AndrosUiKit/navbar.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
 
-<!---->
     <div class="sidenav">
         <a href="../pages/component/button.html">Component</a>
         <a href="../pages/component/button.html">
@@ -19,50 +21,56 @@
         </a>
     </div>
 
-<!---->
     <div class="content">
 
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li style="float:right"><a class="active" href="#about">About</a></li>
+        <nav class="">
+            <ul class="showing">
+                <a class="" href="#">
+                    <li>Home</li>
+                </a>
+                <a class="" href="#">
+                    <li>About</li>
+                </a>
             </ul>
+            <div class="handle">Menu</div>
+        </nav>
 
-            <center>
-                <h1>CodeTeamUiKit</h1>
-            </center>
+        <h1>CodeTeamUiKit</h1>
+        <hr>
+        <h3 class="p-g2">El kit de interfaz de usuario de CodeTeamRd</h3>
+        <br>
+        <a href="https://github.com/codeteamrd/CodeTeamUiKit/wiki/Gu%C3%ADa-de-contribuci%C3%B3n">Contribulle a la
+            causa</a>
+        <p>Es un proyecto de codigo abierto total mente gratis para estilizar tus paginas web con las ultimas
+            tendencias de interfaces de usuario con css</p>
+
+        <footer class="footer-g2">
+
+            <h3 class="p-w"><b>CodeTeamRD</b></h3>
             <hr>
-            <center>
-                <h3 class="p-g2">El kit de interfaz de usuario de CodeTeamRd</h3>
-            </center><br>
-            <a href="https://github.com/codeteamrd/CodeTeamUiKit/wiki/Gu%C3%ADa-de-contribuci%C3%B3n">Contribulle a la
-                causa</a>
-            <p>Es un proyecto de codigo abierto total mente gratis para estilizar tus paginas web con las ultimas
-                tendencias de interfaces de usuario con css</p>
 
-<!---->
-            <footer class="footer-g2">
-
-                <h3 class="p-w"><b>CodeTeamRD</b></h3>
+            <p class="p-w">Team of young entrepreneurs, software programmers whose purpose is to solve problems
+                in general, creating computer systems with reasonable prices.
                 <hr>
-                <center>
-                    <p class="p-w">Team of young entrepreneurs, software programmers whose purpose is to solve problems
-                        in general, creating computer systems with reasonable prices.
-                        <hr>
-                    </p>
-                </center>
-                <p class="p-w">Correo: <b>codeteamrd@outlook.com</b></p>
-                <p class="p-w">Instagram:
-                    <a href="https://www.instagram.com/codeteamrd/?utm_source=ig_profile_share&igshid=rp4vzpgesk50"
-                        target="_blank">
-                        <b> @codeteamrd</b>
-                    </a>
-                </p>
+            </p>
 
-            </footer>
+            <p class="p-w">Correo: <b>codeteamrd@outlook.com</b></p>
+            <p class="p-w">Instagram:
+                <a href="https://www.instagram.com/codeteamrd/?utm_source=ig_profile_share&igshid=rp4vzpgesk50"
+                    target="_blank">
+                    <b> @codeteamrd</b>
+                </a>
+            </p>
+
+        </footer>
     </div>
 
+    
+    <script>
+        $('.handle').on('click', function(){
+            $('nav ul').toggleClass('showing');
+        });
+    </script>
 </body>
 
 </html>
